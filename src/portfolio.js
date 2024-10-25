@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Kirill Nagaitsev',
   role: 'Ph.D. Student at ',
-  description: "I'm a first year Ph.D. student at Northwestern University, advised by Peter Dinda. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
+  description: "I'm a Ph.D. student and DOE CSGF fellow, advised by Peter Dinda at Northwestern University. My research interests mainly lie in operating system and compiler support for parallel computing. In my free time, I enjoy running and multiplayer game development.",
   resume: '#projects',
   social: {
     linkedin: 'https://www.linkedin.com/in/kirn/',
@@ -30,7 +30,7 @@ const projects = [
   {
     name: 'Village',
     description:
-      'This project aims to map high-level parallel code to hardware accelerators that can exploit the parallelism. A high-level parallel language compiles to an intermediary language that exposes the parallelism, then we map this to hardware via LLVM.',
+      'This project aims to map high-level parallel code to custom hardware accelerators that can exploit the parallelism. A high-level parallel language compiles to an intermediary language that exposes the parallelism, then we map this to hardware via LLVM.',
     stack: ['Compilers', 'Parallelism', 'Heterogeneous Hardware'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
